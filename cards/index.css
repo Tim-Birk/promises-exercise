@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+
+  color: #492f01;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+#card-pile {
+  width: 100%;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: absolute;
+}
